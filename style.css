@@ -18,6 +18,7 @@ ul{
     list-style: none;
     display: flex;
     padding: 0px;
+    margin: 0px;
 }
 
 a{
@@ -106,6 +107,7 @@ main img{
         width: 15px;
     }
 }
+
 
 
 /* Portrait tablets and small desktops */
