@@ -116,6 +116,38 @@ main img{
     }
 }
 
+.best h2{
+    margin: 20px 0px;
+}
+
+.best__title{
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    width: 320px;
+    border-radius: 8px;
+    color: gray;
+    background-color: white;
+    font-weight: 100;
+    margin: 20px auto;
+}
+.card img{
+    width: 100%;
+    flex: 1;
+}
+.card btn{
+    width: 95%;
+    text-align: center;
+    flex: 1;
+}
+
 
 
 /* Portrait tablets and small desktops */
