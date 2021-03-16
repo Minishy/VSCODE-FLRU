@@ -91,31 +91,6 @@ main img{
     background: linear-gradient(180deg #686C6F 0%, #373A3C 100%);
 }
 
-/* Large desktops and laptops */
-@media (max-width: 1200px) {
-    .container{
-        width: 90%;
-    }
-
-}
-
-/* Portrait tablets and medium desktops */
-@media (max-width: 992px)  {
- 
-    .best__card{
-        width:250px;
-    }
-
-    .header__nav{
-        display:none
-    }
-
-    .menu-burger{
-        display:block;
-        width: 15px;
-    }
-}
-
 .best h2{
     margin: 20px 0px;
 }
@@ -142,11 +117,38 @@ main img{
     width: 100%;
     flex: 1;
 }
-.card btn{
+.card button{
     width: 95%;
     text-align: center;
     flex: 1;
 }
+
+/* Large desktops and laptops */
+@media (max-width: 1200px) {
+    .container{
+        width: 90%;
+    }
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (max-width: 992px)  {
+ 
+    .best__card{
+        width:250px;
+    }
+
+    .header__nav{
+        display:none
+    }
+
+    .menu-burger{
+        display:block;
+        width: 15px;
+    }
+}
+
+
 
 
 
