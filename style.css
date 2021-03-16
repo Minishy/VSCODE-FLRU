@@ -85,6 +85,7 @@ main img{
 
 .btn-green{
     background-color: #8dd83d;
+    border-color: transparent;
 }
 .btn-gray{
     background: linear-gradient(180deg #686C6F 0%, #373A3C 100%);
