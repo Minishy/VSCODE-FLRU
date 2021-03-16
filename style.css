@@ -45,8 +45,11 @@ a{
 .menu-burger{
     display: none;
     margin-right: 20px;
+    width: 40px;   
+}
+
+.menu-burger img{
     width: 40px;
-    
 }
 
 .header_logo{
@@ -97,7 +100,7 @@ main img{
 
 /* Portrait tablets and medium desktops */
 @media (max-width: 992px)  {
-  
+ 
     .best__card{
         width:250px;
     }
@@ -116,7 +119,22 @@ main img{
 
 /* Portrait tablets and small desktops */
 @media (max-width: 768px)  {
+    .card{
+        width: 180px
+    }
 
+    main img{
+        object-fit: cover;
+        height: 350px;
+    }
+
+    .main__btn .btn{
+        padding: 10px 15px;
+        font-size:14px;
+    }
+    .main__title{
+        right: 10%;
+    }
 }
 
 /* Landscape phones and portrait tablets */
