@@ -9,6 +9,8 @@ body{margin:0;padding:0}
     display: flex;
     justify-content: space-between;
     height: 60px;
+    padding-top: 15px;
+    position: relative;
     
 }
 .container{
@@ -43,7 +45,7 @@ a{
 .menu-burger{
     display: none;
     margin-right: 20px;
-    width: 15px;
+    width: 40px;
     
 }
 
@@ -95,9 +97,7 @@ main img{
 
 /* Portrait tablets and medium desktops */
 @media (max-width: 992px)  {
-   .container{
-       width: 900px;
-   }
+  
     .best__card{
         width:250px;
     }
