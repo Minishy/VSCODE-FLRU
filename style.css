@@ -138,10 +138,17 @@ main img{
     text-align: center;
 }
 
-.gameimg{
+.gameimg img{
     width:100%;
-    
+    position: absolute;
+    object-fit: cover;
+    z-index: -2;
 }
+.gameimg{
+    z-index: -2;
+}
+
+
 
 /* Large desktops and laptops */
 @media (max-width: 1200px) {
