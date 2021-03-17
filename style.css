@@ -118,17 +118,23 @@ main img{
     flex: 1;
 }
 .card-button{
-    width: 95%;
+    width: 90%;
     text-align: center;
     flex: 1;
     padding: 20px;
     margin: 20px auto;
 }
 
+.card button{
+    width: 90%;
+    padding: 20px;
+}
+
 .card-title{
     width: 90%;
     margin: 30px auto;
     flex: 2;
+    text-align: center;
 }
 
 /* Large desktops and laptops */
