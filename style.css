@@ -171,6 +171,12 @@ main img{
     margin-top: -450px;
 }
 
+.footer-row{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Large desktops and laptops */
 @media (max-width: 1200px) {
     .container{
