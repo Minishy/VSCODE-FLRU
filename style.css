@@ -124,6 +124,12 @@ main img{
     padding: 20px;
 }
 
+.card-title{
+    width: 90%;
+    margin: 30px auto;
+    flex: 2;
+}
+
 /* Large desktops and laptops */
 @media (max-width: 1200px) {
     .container{
