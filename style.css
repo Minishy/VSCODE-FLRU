@@ -97,6 +97,7 @@ main img{
 
 .best__title{
     text-align: center;
+    margin: 50px auto;
 }
 
 .cards{
@@ -135,6 +136,11 @@ main img{
     margin: 30px auto;
     flex: 2;
     text-align: center;
+}
+
+.gameimg{
+    width:100%;
+    
 }
 
 /* Large desktops and laptops */
