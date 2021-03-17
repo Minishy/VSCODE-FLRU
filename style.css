@@ -156,7 +156,20 @@ main img{
     padding-top: 100px;
 }
 
+.designbg img{
+    width:100%;
+    position: relative;
+    object-fit: cover;
+    z-index: -2;
+}
 
+.designbg{
+    z-index: -2;
+}
+
+.design__title{
+    margin-top: -450px;
+}
 
 /* Large desktops and laptops */
 @media (max-width: 1200px) {
