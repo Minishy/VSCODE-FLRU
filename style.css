@@ -148,7 +148,7 @@ main img{
 /* Portrait tablets and medium desktops */
 @media (max-width: 992px)  {
  
-    .best__card{
+    .card{
         width:250px;
     }
 
