@@ -121,6 +121,7 @@ main img{
     width: 95%;
     text-align: center;
     flex: 1;
+    padding: 20px;
 }
 
 /* Large desktops and laptops */
