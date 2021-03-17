@@ -100,6 +100,11 @@ main img{
     margin: 50px auto;
 }
 
+.game__title{
+    text-align: center;
+    margin: 50px auto;
+}
+
 .cards{
     display: flex;
     justify-content: space-between;
@@ -146,6 +151,9 @@ main img{
 }
 .gameimg{
     z-index: -2;
+}
+.games{
+    padding-top: 100px;
 }
 
 
